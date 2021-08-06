@@ -17,7 +17,8 @@ code {
 
 
 .bottomPane {
-  margin: 15px;
+  margin-top: 45px;
+  height: 20%;
 }
 
 
@@ -26,16 +27,17 @@ code {
 }
 
 .textDiv {
+  margin: 25px;
   height: 50%;
 }
 
 .photo {
-  height: 450px;
+  height: 400px;
   width: 100%;
 }
 
 .photoFooter{
-  height: 325px;
+  height: 350px;
   width: 100%;
 }
 
@@ -43,6 +45,7 @@ code {
   height: 50px;
   width: 100%;
 }
+
 
 .button {
     webkit-font-smoothing: antialiased;
@@ -66,21 +69,3 @@ code {
 }
 
 
-#nav {
-  width: 100%;
-  float: left;
-  margin: 0 0 3em 0;
-  padding: 0;
-  list-style: none;
-  background-color: rgb(255, 255, 255);
-  border-bottom: 1px solid #ccc; 
-  border-top: 1px solid #ccc; }
-
-#nav li a {
-      display: block;
-      padding: 8px 15px;
-      text-decoration: none;
-      font-weight: bold;
-      color: #069;
-      border-right: 1px solid #ccc; 
-}     
